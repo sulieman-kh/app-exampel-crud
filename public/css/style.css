@@ -1,0 +1,123 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav a {
+    padding: .5rem;
+}
+
+li {    
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    background: cornsilk;
+}
+
+li:hover {
+    background: rgb(246, 240, 195);
+}
+
+.form {
+    border: 1px solid rgb(246, 240, 195);
+    background: #ffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000000f;
+}
+
+form div {
+    margin: 10px;
+}
+
+form label {
+    display: inherit;
+    font-size: .9rem;
+    padding-bottom: 3px;
+    color: #9d9d9d;
+}
+
+.form input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+form button {
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.form-error {
+    margin: 0;
+    font-size: .8rem;
+    color: red;
+}
+
+.edit-btn {
+    padding:0 10px ;
+    background-color:#F8F8FF;
+    color: #56A902;
+    border:none;
+    border-radius:2px;
+}
+
+.delete-btn {
+    padding:0 10px ;
+    color:#E71D36;
+    background-color:#F8F8FF;
+    font-size: 0.9rem;  
+    border-radius:2px;
+    cursor: pointer;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(246, 240, 195);
+  }
+  
+.form select {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.mobile-img {
+    border-radius: 0;
+    width: 300px;
+}
