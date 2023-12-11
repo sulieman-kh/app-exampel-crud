@@ -27,18 +27,18 @@
         <div class="dropdown">
         <a>Products</a>
             <div class="dropdown-content">
-                <a href="{{route('computers.index')}}">Computers</a>
-                <a href="{{route('mobiles.index')}}">Mobiles</a>
+                <a href="{{ route('computers.index') }}">Computers</a>
+                <a href="{{ route('mobiles.index') }}">Mobiles</a>
             </div>
         </div>
 
 
-        <a href="{{route('home.about')}}">About</a>
+        <a href="{{ route('home.about') }}">About</a>
         <!-- <a href="{{route('computers.index')}}">Computers</a> -->
         
-        <a href="{{route('home.contact')}}">Contact</a>
+        <a href="{{ route('home.contact') }}">Contact</a>
 
-
+        <a href="{{ route('auth.login') }}">Login</a>
 
 
     </nav>
