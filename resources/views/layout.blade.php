@@ -38,6 +38,7 @@
         
         <a href="{{ route('home.contact') }}">Contact</a>
 
+        <a href="{{ route('auth.register') }}">Register</a>
         <a href="{{ route('auth.login') }}">Login</a>
 
 

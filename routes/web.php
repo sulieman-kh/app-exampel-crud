@@ -22,7 +22,10 @@ Route::get('/',[StaticController::class, 'index'])->name('home.index');
 Route::get('/about',[StaticController::class,'about'])->name('home.about');
 Route::get('/contact',[StaticController::class,'contact'])->name('home.contact');
 
-Route::get('/login',[LoginRegisterController::class, 'index'])->name('auth.login');
+Route::get('/login',[LoginRegisterController::class, 'login'])->name('auth.login');
+Route::get('/register',[LoginRegisterController::class, 'register'])->name('auth.register');
+
+
 
 Route::resource('computers', ComputersController::class);
 Route::resource('mobiles', MobilesController::class);
